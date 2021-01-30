@@ -81,3 +81,21 @@ int adiciona_funcionario(Lista *li, Funcionario fun){
     }
 }
 
+int remove_funcionario(Lista *li, int id){
+    if(li == NULL){
+        return 0;
+    }
+    ELEM *ant, *no = *li;
+    while(no != NULL && no->dados.id != id){
+        ant = no;
+        no = no->prox;
+    }
+    if(no == *li){
+        *li = no->prox;
+    }else{
+        ant->prox = no->prox;
+    }
+    free(no);
+    return 1;
+}
+

@@ -1,8 +1,13 @@
 # depslib dependency file v1.0
-1611993116 source:c:\users\nathann\desktop\faculdade\ed1\projeto final\projeto_final\lib.c
+1612036158 source:c:\users\nathann\desktop\faculdade\ed1\projeto final\projeto_final\lib.c
 	<stdio.h>
 	<stdlib.h>
 	"lib.h"
 
-1611992892 c:\users\nathann\desktop\faculdade\ed1\projeto final\projeto_final\lib.h
+1612036158 c:\users\nathann\desktop\faculdade\ed1\projeto final\projeto_final\lib.h
+
+1611993134 source:c:\users\nathann\desktop\faculdade\ed1\projeto final\projeto_final\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lib.h"
 

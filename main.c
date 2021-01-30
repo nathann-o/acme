@@ -25,11 +25,15 @@ int main()
     printf("%d", opc);
     if(opc == 1){
         x = adiciona_funcionario(li, f1);
-        if(x){
-            printf("\nInserido ordenadamente com sucesso!");
-        }else{
-            printf("\nNao foi possivel inserir ordenadamente.");
-        }
+        opc = menu();
+    }
+    if(opc == 2){
+        system("cls");
+        printf("\nDigite o id do funcionario que deseja remover: ");
+        int id_remove;
+        scanf("%d", &id_remove);
+        x = remove_funcionario(li, id_remove);
+        opc = menu();
     }
 
 

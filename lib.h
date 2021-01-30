@@ -22,6 +22,8 @@ int listaVazia(Lista *li);
 
 int adiciona_funcionario(Lista *li, Funcionario fun);
 
+int remove_funcionario(Lista *li, int id);
+
 
 
 #endif // LIB_H_INCLUDED
