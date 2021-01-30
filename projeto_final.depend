@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1611993116 source:c:\users\nathann\desktop\faculdade\ed1\projeto final\projeto_final\lib.c
+	<stdio.h>
+	<stdlib.h>
+	"lib.h"
+
+1611992892 c:\users\nathann\desktop\faculdade\ed1\projeto final\projeto_final\lib.h
+
