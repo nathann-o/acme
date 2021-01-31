@@ -99,3 +99,46 @@ int remove_funcionario(Lista *li, int id){
     return 1;
 }
 
+int edita_funcionario(Lista *li, int id){
+    if(li == NULL){
+        return 0;
+    }
+    ELEM *no = *li;
+    while(no != NULL && no->dados.id != id){
+        no = no->prox;
+    }
+    if(no == NULL){
+        printf("\nID nao encontrado!");
+        return 0;
+    }else{
+        printf("Deseja reajustar o salario? (1 - Sim/ 2 - Nao) :");
+        int opc2;
+        scanf("%d", &opc2);
+        if(opc2 == 1){
+            printf("Digite a porcentagem do reajuste: ");
+            int reaj;
+            scanf("%d", &reaj);
+            no->dados.salario +=  no->dados.salario * (reaj/100);
+        }else{
+            printf("\nNovo Id: ");
+            scanf("%d", &no->dados.id);
+            printf("\nNovo nome: ");
+            getchar();
+            gets(&no->dados.nome);
+            printf("\nNovo endereco: ");
+            getchar();
+            gets(&no->dados.endereco);
+            printf("\nNova idade: ");
+            scanf("%d", &no->dados.idade);
+            printf("\nNovo salario: ");
+            scanf("%f", &no->dados.salario);
+            printf("\nNovo cargo: ");
+            getchar();
+            gets(&no->dados.cargo);
+            int t = 5;
+        }
+
+        return 1;
+    }
+}
+
