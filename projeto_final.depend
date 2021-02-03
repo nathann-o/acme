@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1612074874 source:c:\users\nathann\desktop\faculdade\ed1\projeto final\projeto_final\lib.c
+	<stdio.h>
+	<stdlib.h>
+	"lib.h"
+
+1612042591 c:\users\nathann\desktop\faculdade\ed1\projeto final\projeto_final\lib.h
+
+1612077706 source:c:\users\nathann\desktop\faculdade\ed1\projeto final\projeto_final\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lib.h"
+
+1612311964 source:c:\users\paulo\downloads\acme-master\acme-master\lib.c
+	<stdio.h>
+	<stdlib.h>
+	"lib.h"
+
+1612311941 c:\users\paulo\downloads\acme-master\acme-master\lib.h
+
+1612312059 source:c:\users\paulo\downloads\acme-master\acme-master\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lib.h"
+
