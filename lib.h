@@ -20,6 +20,8 @@ int listaCheia(Lista *li);
 
 int listaVazia(Lista *li);
 
+void coleta_dados(Funcionario f1, Lista *li);
+
 int adiciona_funcionario(Lista *li, Funcionario fun);
 
 int remove_funcionario(Lista *li, int id);

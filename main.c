@@ -15,28 +15,7 @@ int main()
         printf("%d", opc);
         if(opc == 1){
             system("cls");
-            printf("id: ");
-            scanf("%d", &f1.id);
-            fflush(stdin);
-
-            printf("\nNome: ");
-            gets(&f1.nome);
-
-
-            printf("\nEndereco: ");
-            gets(&f1.endereco);
-
-            printf("\nIdade: ");
-            scanf("%d", &f1.idade);
-            printf("\nSalario: ");
-            scanf("%f", &f1.salario);
-
-            printf("\nCargo: ");
-            getchar();
-            gets(&f1.cargo);
-
-
-            x = adiciona_funcionario(li, f1);
+            coleta_dados(f1, li);
         }
         else if(opc == 2){
             system("cls");
